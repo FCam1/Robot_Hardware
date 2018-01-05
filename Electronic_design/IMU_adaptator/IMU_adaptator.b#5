@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="2.54" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.01" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -332,7 +332,7 @@ W = angled&lt;p&gt;
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
+<designrules name="SeeedStudio_2layer_DRU_no_angle_20140221">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -347,26 +347,28 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
+<description language="zh">&lt;b&gt;Seeed Studio EAGLE Design Rules&lt;/b&gt;
+</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
+<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="6mil"/>
 <param name="mdWirePad" value="6mil"/>
 <param name="mdWireVia" value="6mil"/>
 <param name="mdPadPad" value="6mil"/>
 <param name="mdPadVia" value="6mil"/>
 <param name="mdViaVia" value="6mil"/>
-<param name="mdSmdPad" value="6mil"/>
-<param name="mdSmdVia" value="6mil"/>
-<param name="mdSmdSmd" value="6mil"/>
-<param name="mdViaViaSameLayer" value="6mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="40mil"/>
-<param name="mdDrill" value="6mil"/>
+<param name="mdCopperDimension" value="10mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="6mil"/>
-<param name="msDrill" value="0.35mm"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -381,9 +383,9 @@ design rules under a new name.</description>
 <param name="rlMaxPadInner" value="20mil"/>
 <param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="8mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="8mil"/>
+<param name="rlMinViaInner" value="6mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -391,16 +393,16 @@ design rules under a new name.</description>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="-1"/>
+<param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -410,7 +412,7 @@ design rules under a new name.</description>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="1"/>
+<param name="checkRestrict" value="0"/>
 <param name="checkStop" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
@@ -566,10 +568,8 @@ design rules under a new name.</description>
 <contactref element="SV1" pad="8"/>
 <contactref element="J1" pad="8"/>
 <wire x1="32.1564" y1="23.4696" x2="42.3672" y2="23.4696" width="0.1524" layer="1"/>
-<wire x1="28.956" y1="20.2692" x2="32.1564" y2="23.4696" width="0.1524" layer="1"/>
-<wire x1="6.5532" y1="20.2692" x2="28.956" y2="20.2692" width="0.1524" layer="1"/>
-<wire x1="5.0292" y1="21.7932" x2="6.5532" y2="20.2692" width="0.1524" layer="1"/>
-<wire x1="3.6576" y1="21.7932" x2="5.0292" y2="21.7932" width="0.1524" layer="1"/>
+<wire x1="29.337" y1="21.7932" x2="32.1564" y2="23.4696" width="0.1524" layer="1"/>
+<wire x1="3.6576" y1="21.7932" x2="29.337" y2="21.7932" width="0.1524" layer="1"/>
 <wire x1="2.5908" y1="22.86" x2="3.6576" y2="21.7932" width="0.1524" layer="1"/>
 <wire x1="42.3672" y1="23.4696" x2="42.4398" y2="23.5511" width="0.1524" layer="1"/>
 <wire x1="2.5908" y1="22.86" x2="2.54" y2="22.86" width="0.1524" layer="1"/>
@@ -621,9 +621,9 @@ design rules under a new name.</description>
 <wire x1="42.5196" y1="20.574" x2="42.4398" y2="20.5489" width="0.1524" layer="1"/>
 <wire x1="45.5676" y1="20.574" x2="45.6402" y2="20.5489" width="0.1524" layer="1"/>
 <wire x1="29.5656" y1="20.4216" x2="42.3672" y2="20.4216" width="0.1524" layer="1"/>
-<wire x1="28.956" y1="19.812" x2="29.5656" y2="20.4216" width="0.1524" layer="1"/>
-<wire x1="9.7536" y1="19.812" x2="28.956" y2="19.812" width="0.1524" layer="1"/>
-<wire x1="5.1816" y1="15.24" x2="9.7536" y2="19.812" width="0.1524" layer="1"/>
+<wire x1="28.575" y1="19.939" x2="29.5656" y2="20.4216" width="0.1524" layer="1"/>
+<wire x1="9.3726" y1="19.939" x2="28.575" y2="19.939" width="0.1524" layer="1"/>
+<wire x1="5.1816" y1="15.24" x2="9.3726" y2="19.939" width="0.1524" layer="1"/>
 <wire x1="42.3672" y1="20.4216" x2="42.4398" y2="20.5489" width="0.1524" layer="1"/>
 <wire x1="5.1816" y1="15.24" x2="5.08" y2="15.24" width="0.1524" layer="1"/>
 <wire x1="5.0292" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="1"/>
@@ -641,6 +641,16 @@ design rules under a new name.</description>
 <wire x1="43.7388" y1="19.5326" x2="43.7388" y2="21.4884" width="0.1524" layer="16"/>
 <wire x1="43.7388" y1="20.574" x2="43.7388" y2="19.5326" width="0.1524" layer="1"/>
 <via x="43.7388" y="19.5326" extent="1-16" drill="0.35"/>
+<polygon width="0.1524" layer="1">
+<vertex x="0.2" y="33.91"/>
+<vertex x="47.51" y="33.91"/>
+<vertex x="47.51" y="32.75"/>
+<vertex x="47.51" y="0.21"/>
+<vertex x="0.25" y="0.21"/>
+<vertex x="0.2" y="0.21"/>
+</polygon>
+<via x="28.5" y="13.96" extent="1-16" drill="0.35"/>
+<wire x1="28.575" y1="19.939" x2="28.5" y2="13.96" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$13">
 <contactref element="SV1" pad="17"/>
@@ -798,9 +808,9 @@ design rules under a new name.</description>
 <wire x1="40.9956" y1="27.1272" x2="43.2816" y2="27.1272" width="0.1524" layer="1"/>
 <wire x1="40.6908" y1="26.8224" x2="40.9956" y2="27.1272" width="0.1524" layer="1"/>
 <wire x1="35.052" y1="26.8224" x2="40.6908" y2="26.8224" width="0.1524" layer="1"/>
-<wire x1="28.8036" y1="20.574" x2="35.052" y2="26.8224" width="0.1524" layer="1"/>
-<wire x1="9.906" y1="20.574" x2="28.8036" y2="20.574" width="0.1524" layer="1"/>
-<wire x1="5.08" y1="25.4" x2="9.906" y2="20.574" width="0.1524" layer="1"/>
+<wire x1="34.8996" y1="26.797" x2="35.052" y2="26.8224" width="0.1524" layer="1"/>
+<wire x1="16.002" y1="26.797" x2="34.8996" y2="26.797" width="0.1524" layer="1"/>
+<wire x1="5.08" y1="25.4" x2="16.002" y2="26.797" width="0.1524" layer="1"/>
 <wire x1="45.5676" y1="24.6888" x2="45.6402" y2="24.5519" width="0.1524" layer="1"/>
 <wire x1="30.0228" y1="5.1816" x2="30.48" y2="5.1816" width="0.1524" layer="16"/>
 <wire x1="9.906" y1="25.2984" x2="30.0228" y2="5.1816" width="0.1524" layer="16"/>
