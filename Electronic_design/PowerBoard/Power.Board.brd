@@ -65,14 +65,14 @@
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0.381" y2="0" width="0" layer="20"/>
 <text x="5.08" y="2.54" size="1.778" layer="25" font="vector" rot="R90">LAAS_CNRS</text>
-<text x="15.24" y="73.66" size="1.778" layer="25" font="vector" rot="R180">GND</text>
+<text x="7.62" y="71.12" size="1.778" layer="25" font="vector" rot="R270">GND</text>
 <text x="88.9" y="66.04" size="1.778" layer="25" font="vector" rot="R270">GND</text>
 <text x="88.9" y="50.8" size="1.778" layer="25" font="vector">GND</text>
 <text x="88.9" y="38.1" size="1.778" layer="25" font="vector">GND</text>
 <text x="88.9" y="25.4" size="1.778" layer="25" font="vector">GND</text>
 <text x="93.98" y="2.54" size="1.778" layer="25" font="vector" rot="R180">GND</text>
-<text x="93.98" y="12.7" size="1.778" layer="25" font="vector" rot="R180">GND</text>
-<text x="10.16" y="63.5" size="1.778" layer="25" font="vector">12V</text>
+<text x="92.837" y="12.319" size="1.778" layer="25" font="vector" rot="R180">GND</text>
+<text x="16.51" y="71.12" size="1.778" layer="25" font="vector" rot="R270">12V</text>
 <text x="88.9" y="76.2" size="1.778" layer="25" font="vector" rot="R270">12V</text>
 <text x="88.9" y="55.88" size="1.778" layer="25" font="vector">12V</text>
 <text x="88.9" y="43.18" size="1.778" layer="25" font="vector">12V</text>
@@ -362,10 +362,10 @@ type 0207, grid 10 mm</description>
 <library name="Trous_fixation">
 <packages>
 <package name="TROUS_FIXATION">
-<hole x="10.16" y="10.16" drill="3"/>
-<hole x="10.16" y="68.58" drill="3"/>
+<hole x="5.08" y="5.08" drill="3"/>
+<hole x="5.08" y="68.58" drill="3"/>
 <hole x="86.36" y="68.58" drill="3"/>
-<hole x="86.36" y="10.16" drill="3"/>
+<hole x="86.36" y="5.08" drill="3"/>
 </package>
 </packages>
 </library>
@@ -569,7 +569,7 @@ design rules under a new name.</description>
 <element name="OD1" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="35.56" y="68.58"/>
 <element name="MAST1" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="35.56" y="55.88"/>
 <element name="PAP1" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="35.56" y="43.18"/>
-<element name="U$5" library="PowerHeaders" package="3MM_HEADER_2" value="3MM_HEADER_2" x="5.08" y="73.66" rot="R270"/>
+<element name="U$5" library="PowerHeaders" package="3MM_HEADER_2" value="3MM_HEADER_2" x="7.62" y="74.93"/>
 <element name="0D2" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="58.42" y="68.58"/>
 <element name="MAST2" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="58.42" y="55.88"/>
 <element name="PAP2" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="58.42" y="43.18"/>
@@ -638,13 +638,13 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="78.74" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="SPICEPREFIX" value="R" x="78.74" y="7.62" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="LED6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="LED_LD260" package3d_urn="urn:adsk.eagle:package:13313/1" value="" x="85.217" y="5.08">
-<attribute name="SPICEMODEL" value="NONE" x="85.217" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="SPICEPREFIX" value="D" x="85.217" y="5.08" size="1.778" layer="27" display="off"/>
-<attribute name="SPICETYPE" value="diode" x="85.217" y="5.08" size="1.778" layer="27" display="off"/>
+<element name="LED6" library="eagle-ltspice" library_urn="urn:adsk.eagle:library:217" package="LED_LD260" package3d_urn="urn:adsk.eagle:package:13313/1" value="" x="82.55" y="6.223" rot="R270">
+<attribute name="SPICEMODEL" value="NONE" x="82.55" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICEPREFIX" value="D" x="82.55" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="SPICETYPE" value="diode" x="82.55" y="6.223" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="linear" library_urn="urn:adsk.eagle:library:262" package="TO220V" package3d_urn="urn:adsk.eagle:package:16417/1" value="788TV" x="58.42" y="7.62"/>
-<element name="U$1" library="Trous_fixation" package="TROUS_FIXATION" value="TROU_FIXATION" x="0" y="0"/>
+<element name="U$1" library="Trous_fixation" package="TROUS_FIXATION" value="" x="0" y="0"/>
 </elements>
 <signals>
 <signal name="12V">
@@ -655,17 +655,6 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="P$2"/>
 <contactref element="RPI" pad="1A"/>
 <contactref element="FNU1" pad="P$2"/>
-<wire x1="22.86" y1="63.5" x2="5.08" y2="63.5" width="5" layer="16"/>
-<wire x1="22.86" y1="63.5" x2="24.13" y2="63.5" width="5" layer="16"/>
-<wire x1="24.13" y1="63.5" x2="28.45" y2="67.82" width="5" layer="16"/>
-<wire x1="28.45" y1="67.82" x2="28.45" y2="68.58" width="5" layer="16"/>
-<wire x1="28.45" y1="57.91" x2="28.45" y2="55.88" width="5" layer="16"/>
-<wire x1="28.45" y1="57.91" x2="22.86" y2="63.5" width="5" layer="16"/>
-<wire x1="28.45" y1="67.82" x2="28.45" y2="68.58" width="5" layer="1"/>
-<wire x1="22.86" y1="63.5" x2="24.13" y2="63.5" width="5" layer="1"/>
-<wire x1="24.13" y1="63.5" x2="28.45" y2="67.82" width="5" layer="1"/>
-<wire x1="28.45" y1="57.91" x2="28.45" y2="55.88" width="5" layer="1"/>
-<wire x1="28.45" y1="57.91" x2="22.86" y2="63.5" width="5" layer="1"/>
 <wire x1="28.45" y1="55.88" x2="28.45" y2="43.18" width="5" layer="1"/>
 <wire x1="28.45" y1="43.18" x2="28.45" y2="30.48" width="5" layer="1"/>
 <wire x1="28.45" y1="30.48" x2="28.45" y2="25.91" width="5" layer="1"/>
@@ -674,7 +663,9 @@ design rules under a new name.</description>
 <wire x1="25.4" y1="15.494" x2="25.146" y2="15.24" width="5" layer="1"/>
 <wire x1="25.146" y1="15.24" x2="25.146" y2="5.334" width="5" layer="1"/>
 <wire x1="25.146" y1="5.334" x2="25.4" y2="5.08" width="5" layer="1"/>
-<wire x1="5.08" y1="63.5" x2="22.86" y2="63.5" width="5" layer="1"/>
+<wire x1="28.45" y1="68.58" x2="28.45" y2="55.88" width="5" layer="1"/>
+<wire x1="17.78" y1="74.93" x2="24.13" y2="68.58" width="6" layer="1"/>
+<wire x1="24.13" y1="68.58" x2="28.45" y2="68.58" width="6" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="OD1" pad="P$4"/>
@@ -768,12 +759,12 @@ design rules under a new name.</description>
 <contactref element="JP2" pad="1"/>
 <contactref element="R6" pad="1"/>
 <contactref element="IC2" pad="3"/>
-<wire x1="60.96" y1="5.08" x2="68.58" y2="5.08" width="2.54" layer="16"/>
-<wire x1="68.58" y1="5.08" x2="71.12" y2="2.54" width="2.54" layer="16"/>
-<wire x1="71.12" y1="2.54" x2="78.74" y2="2.54" width="2.54" layer="16"/>
-<wire x1="78.74" y1="2.54" x2="88.9" y2="2.54" width="2.54" layer="16"/>
-<wire x1="88.9" y1="2.54" x2="91.44" y2="5.08" width="2.54" layer="16"/>
-<wire x1="91.44" y1="5.08" x2="96.52" y2="5.08" width="2.54" layer="16"/>
+<wire x1="60.96" y1="5.08" x2="67.31" y2="5.08" width="1.27" layer="16"/>
+<wire x1="67.31" y1="5.08" x2="69.85" y2="2.54" width="1.27" layer="16"/>
+<wire x1="69.85" y1="2.54" x2="78.74" y2="2.54" width="1.27" layer="16"/>
+<wire x1="78.74" y1="2.54" x2="88.9" y2="2.54" width="1.27" layer="16"/>
+<wire x1="88.9" y1="2.54" x2="91.44" y2="5.08" width="1.27" layer="16"/>
+<wire x1="91.44" y1="5.08" x2="96.52" y2="5.08" width="1.27" layer="16"/>
 </signal>
 <signal name="N$5">
 <contactref element="RPI" pad="2A"/>
@@ -825,8 +816,8 @@ design rules under a new name.</description>
 <signal name="N$17">
 <contactref element="R6" pad="2"/>
 <contactref element="LED6" pad="A"/>
-<wire x1="78.74" y1="12.7" x2="83.947" y2="7.493" width="1.27" layer="16"/>
-<wire x1="83.947" y1="7.493" x2="83.947" y2="5.08" width="1.27" layer="16"/>
+<wire x1="78.74" y1="12.7" x2="82.55" y2="12.7" width="1.27" layer="16"/>
+<wire x1="82.55" y1="12.7" x2="82.55" y2="7.493" width="1.27" layer="16"/>
 </signal>
 <signal name="N$18">
 <contactref element="F1" pad="2A"/>
