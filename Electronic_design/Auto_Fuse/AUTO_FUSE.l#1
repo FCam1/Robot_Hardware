@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -68,7 +68,6 @@
 <pad name="P$4" x="7.11" y="0" drill="2.54" diameter="3.81"/>
 <pad name="P$1" x="-2.03" y="0" drill="2.54" diameter="3.81"/>
 <pad name="P$3" x="2.03" y="0" drill="2.54" diameter="3.81"/>
-<text x="-7.62" y="2.54" size="1.27" layer="21" font="vector">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
