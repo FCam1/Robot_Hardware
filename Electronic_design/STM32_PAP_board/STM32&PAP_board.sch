@@ -356,51 +356,6 @@ Pitch : 2.54mm
 </deviceset>
 </devicesets>
 </library>
-<library name="AUTO_FUSE">
-<packages>
-<package name="AUTO_FUSE">
-<wire x1="-9.65" y1="2.22" x2="9.65" y2="2.22" width="0.127" layer="21"/>
-<wire x1="9.65" y1="2.22" x2="9.65" y2="-2.22" width="0.127" layer="21"/>
-<wire x1="9.65" y1="-2.22" x2="-9.65" y2="-2.22" width="0.127" layer="21"/>
-<wire x1="-9.65" y1="-2.22" x2="-9.65" y2="2.22" width="0.127" layer="21"/>
-<pad name="P$2" x="-7.11" y="0" drill="2.54" diameter="3.81"/>
-<pad name="P$4" x="7.11" y="0" drill="2.54" diameter="3.81"/>
-<pad name="P$1" x="-2.03" y="0" drill="2.54" diameter="3.81"/>
-<pad name="P$3" x="2.03" y="0" drill="2.54" diameter="3.81"/>
-</package>
-</packages>
-<symbols>
-<symbol name="AUTO_FUSE">
-<wire x1="-5.08" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
-<pin name="P$1" x="-10.16" y="0" length="middle"/>
-<pin name="P$2" x="12.7" y="0" length="middle" rot="R180"/>
-<text x="-5.08" y="3.302" size="1.778" layer="94">&gt;NAME</text>
-<wire x1="-1.524" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
-<wire x1="3.81" y1="0" x2="1.27" y2="0" width="0.254" layer="94" curve="-180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="AUTO_FUSE">
-<gates>
-<gate name="G$1" symbol="AUTO_FUSE" x="-1.27" y="0"/>
-</gates>
-<devices>
-<device name="" package="AUTO_FUSE">
-<connects>
-<connect gate="G$1" pin="P$1" pad="P$2"/>
-<connect gate="G$1" pin="P$2" pad="P$4"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="con-lstb">
 <description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
 Naming:&lt;p&gt;
@@ -409,38 +364,6 @@ MA = male&lt;p&gt;
 W = angled&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
 <packages>
-<package name="MA03-1">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="0.635" x2="1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="-1.27" x2="1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<pad name="1" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-3.81" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.08" y="-0.635" size="1.27" layer="21" ratio="10">1</text>
-<text x="-3.81" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
 <package name="MA20-1">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-24.765" y1="1.27" x2="-23.495" y2="1.27" width="0.1524" layer="21"/>
@@ -832,20 +755,6 @@ W = angled&lt;p&gt;
 </package>
 </packages>
 <symbols>
-<symbol name="MA03-1">
-<wire x1="3.81" y1="-5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="1.27" y1="2.54" x2="2.54" y2="2.54" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="0" x2="2.54" y2="0" width="0.6096" layer="94"/>
-<wire x1="1.27" y1="-2.54" x2="2.54" y2="-2.54" width="0.6096" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="-5.08" width="0.4064" layer="94"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<wire x1="-1.27" y1="5.08" x2="3.81" y2="5.08" width="0.4064" layer="94"/>
-<text x="-1.27" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-1.27" y="5.842" size="1.778" layer="95">&gt;NAME</text>
-<pin name="1" x="7.62" y="-2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="2" x="7.62" y="0" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="3" x="7.62" y="2.54" visible="pad" length="middle" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
 <symbol name="MA20-1">
 <wire x1="3.81" y1="-25.4" x2="-1.27" y2="-25.4" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-17.78" x2="2.54" y2="-17.78" width="0.6096" layer="94"/>
@@ -992,29 +901,6 @@ W = angled&lt;p&gt;
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="MA03-1" prefix="SV" uservalue="yes">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<gates>
-<gate name="G$1" symbol="MA03-1" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="MA03-1">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="unknown" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="MA20-1" prefix="SV" uservalue="yes">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <gates>
@@ -2956,6 +2842,53 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="PowerHeaders">
+<packages>
+<package name="GREEN_HEADER">
+<pad name="P$1" x="-2.54" y="0" drill="1.5" diameter="3.81" rot="R90"/>
+<pad name="P$2" x="2.54" y="0" drill="1.5" diameter="3.81" rot="R90"/>
+<text x="-5.08" y="2.54" size="1.27" layer="21" font="vector">&gt;NAME</text>
+</package>
+</packages>
+<symbols>
+<symbol name="GREEN_HEADER">
+<pin name="P$1" x="-2.54" y="-5.08" length="middle" rot="R90"/>
+<pin name="P$2" x="2.54" y="-5.08" length="middle" rot="R90"/>
+<wire x1="-5.08" y1="-2.54" x2="-5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="0" x2="-5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="2.54" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="5.08" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-2.54" x2="-5.08" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="6.35" size="1.778" layer="94">&gt;NAME</text>
+<wire x1="0" y1="0" x2="-5.08" y2="0" width="0.254" layer="94" curve="-180"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94" curve="-180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="GREEN_HEADER">
+<description>Green Connector for PCB
+Drill: 1.5mm
+Diameter: 3.81mm
+Pitch: 5.08mm
+//FCAM1</description>
+<gates>
+<gate name="G$1" symbol="GREEN_HEADER" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="GREEN_HEADER">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
+<connect gate="G$1" pin="P$2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2969,8 +2902,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="U$1" library="POLOLU_A4988_MOTOR_DRIVER" deviceset="POLOLU_A4988_MOTOR_DRIVER" device=""/>
 <part name="U$2" library="POLOLU_A4988_MOTOR_DRIVER" deviceset="POLOLU_A4988_MOTOR_DRIVER" device=""/>
 <part name="U$3" library="stm32duino boards" deviceset="BLUEPILL" device=""/>
-<part name="U$4" library="AUTO_FUSE" deviceset="AUTO_FUSE" device=""/>
-<part name="SV1" library="con-lstb" deviceset="MA03-1" device=""/>
 <part name="SV2" library="con-lstb" deviceset="MA20-1" device=""/>
 <part name="SV3" library="con-lstb" deviceset="MA20-1" device=""/>
 <part name="SV4" library="con-lstb" deviceset="MA04-1" device=""/>
@@ -2987,6 +2918,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <part name="F1" library="fuse" deviceset="TR5" device=""/>
 <part name="SL1" library="con-amp-quick" deviceset="MA03" device=""/>
 <part name="3V3" library="linear" library_urn="urn:adsk.eagle:library:262" deviceset="78*" device="T" package3d_urn="urn:adsk.eagle:package:16414/1" technology="05"/>
+<part name="U$4" library="PowerHeaders" deviceset="GREEN_HEADER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2996,8 +2928,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="U$1" gate="G$1" x="73.66" y="22.86"/>
 <instance part="U$2" gate="G$1" x="73.66" y="-12.7"/>
 <instance part="U$3" gate="G$1" x="-43.18" y="5.08"/>
-<instance part="U$4" gate="G$1" x="5.08" y="60.96"/>
-<instance part="SV1" gate="G$1" x="-48.26" y="68.58" rot="R270"/>
 <instance part="SV2" gate="1" x="-81.28" y="5.08"/>
 <instance part="SV3" gate="1" x="-5.08" y="7.62" rot="R180"/>
 <instance part="SV4" gate="1" x="124.46" y="20.32" rot="R180"/>
@@ -3015,6 +2945,7 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <instance part="F1" gate="1" x="5.08" y="50.8"/>
 <instance part="SL1" gate="G$1" x="-99.06" y="15.24"/>
 <instance part="3V3" gate="A1" x="-15.24" y="50.8"/>
+<instance part="U$4" gate="G$1" x="-40.64" y="71.12"/>
 </instances>
 <busses>
 </busses>
@@ -3355,14 +3286,13 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <wire x1="-40.64" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SV1" gate="G$1" pin="1"/>
-<junction x="-50.8" y="60.96"/>
-<label x="-50.8" y="60.96" size="1.778" layer="95" rot="R180"/>
-</segment>
-<segment>
 <pinref part="ALIM_3V" gate="-1" pin="S"/>
 <junction x="-50.8" y="50.8"/>
 <label x="-50.8" y="50.8" size="1.778" layer="95" rot="R180"/>
+<pinref part="U$4" gate="G$1" pin="P$1"/>
+<wire x1="-43.18" y1="66.04" x2="-43.18" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-43.18" y1="58.42" x2="-50.8" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-50.8" y1="58.42" x2="-50.8" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -3381,25 +3311,6 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 <label x="-15.24" y="43.18" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="N$43" class="0">
-<segment>
-<pinref part="U$4" gate="G$1" pin="P$2"/>
-<pinref part="U$1" gate="G$1" pin="VMOT"/>
-<wire x1="17.78" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="35.56" y1="60.96" x2="44.45" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="44.45" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="60.96" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
-<pinref part="U$2" gate="G$1" pin="VMOT"/>
-<wire x1="86.36" y1="-5.08" x2="104.14" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="-5.08" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="104.14" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
-<junction x="86.36" y="30.48"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<junction x="35.56" y="60.96"/>
-<pinref part="C2" gate="G$1" pin="1"/>
-<junction x="44.45" y="60.96"/>
-</segment>
-</net>
 <net name="N$45" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND1"/>
@@ -3414,13 +3325,25 @@ http://www.fairchildsemi.com/ds/LM/LM7805.pdf</description>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="U$4" gate="G$1" pin="P$1"/>
-<pinref part="SV1" gate="G$1" pin="3"/>
-<wire x1="-5.08" y1="60.96" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="-25.4" y1="60.96" x2="-45.72" y2="60.96" width="0.1524" layer="91"/>
-<junction x="-45.72" y="60.96"/>
 <pinref part="3V3" gate="A1" pin="VI"/>
 <wire x1="-25.4" y1="50.8" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="VMOT"/>
+<wire x1="35.56" y1="60.96" x2="44.45" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="44.45" y1="60.96" x2="86.36" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="60.96" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VMOT"/>
+<wire x1="86.36" y1="-5.08" x2="104.14" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="-5.08" x2="104.14" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="30.48" x2="86.36" y2="30.48" width="0.1524" layer="91"/>
+<junction x="86.36" y="30.48"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<junction x="35.56" y="60.96"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="44.45" y="60.96"/>
+<wire x1="-25.4" y1="60.96" x2="35.56" y2="60.96" width="0.1524" layer="91"/>
+<pinref part="U$4" gate="G$1" pin="P$2"/>
+<wire x1="-38.1" y1="66.04" x2="-25.4" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-25.4" y1="66.04" x2="-25.4" y2="60.96" width="0.1524" layer="91"/>
 <junction x="-25.4" y="60.96"/>
 </segment>
 </net>
