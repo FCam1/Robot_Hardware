@@ -71,24 +71,24 @@
 <hole x="45.7" y="31.85" drill="2.5"/>
 <wire x1="47.7" y1="10" x2="10" y2="10" width="0.1524" layer="37"/>
 <wire x1="10" y1="10" x2="10" y2="34.1" width="0.1524" layer="37"/>
-<text x="12.304" y="1.651" size="1.016" layer="37" font="vector">TX</text>
-<text x="15.098" y="1.651" size="1.016" layer="37" font="vector">RX</text>
-<text x="30.694" y="1.262" size="0.6096" layer="37" font="vector" rot="R90">MISO</text>
-<text x="32.98" y="1.262" size="0.6096" layer="37" font="vector" rot="R90">MOSI</text>
-<text x="28.147" y="1.135" size="0.6096" layer="37" font="vector" rot="R90">SLCK</text>
-<text x="25.687" y="1.27" size="0.6096" layer="37" font="vector" rot="R90">SS</text>
-<text x="42.164" y="1.143" size="0.6096" layer="37" font="vector" rot="R90">GND</text>
-<text x="44.577" y="1.27" size="0.6096" layer="37" font="vector" rot="R90">VCC</text>
+<text x="12.304" y="1.651" size="1.016" layer="25" font="vector">TX</text>
+<text x="15.098" y="1.651" size="1.016" layer="25" font="vector">RX</text>
+<text x="30.694" y="1.262" size="0.6096" layer="25" font="vector" rot="R90">MISO</text>
+<text x="32.98" y="1.262" size="0.6096" layer="25" font="vector" rot="R90">MOSI</text>
+<text x="28.147" y="1.135" size="0.6096" layer="25" font="vector" rot="R90">SLCK</text>
+<text x="25.687" y="1.27" size="0.6096" layer="25" font="vector" rot="R90">SS</text>
+<text x="42.164" y="1.143" size="0.6096" layer="25" font="vector" rot="R90">GND</text>
+<text x="44.577" y="1.27" size="0.6096" layer="25" font="vector" rot="R90">VCC</text>
 <text x="46.99" y="27.178" size="0.6096" layer="37" font="vector" rot="R180">1</text>
 <text x="7.366" y="31.623" size="0.6096" layer="37" font="vector" rot="R180">1</text>
 <text x="1.524" y="31.75" size="0.6096" layer="37" font="vector" rot="R180">2</text>
 <text x="1.397" y="28.829" size="0.6096" layer="37" font="vector" rot="R180">4</text>
 <text x="7.366" y="28.448" size="0.6096" layer="37" font="vector" rot="R180">3</text>
-<text x="9.652" y="3.175" size="1.016" layer="37" font="vector" rot="R180">LAAS CNRS</text>
-<text x="38.164" y="1.143" size="0.6096" layer="37" font="vector" rot="R90">GND</text>
-<text x="21.164" y="1.143" size="0.6096" layer="37" font="vector" rot="R90">GND</text>
-<text x="35.577" y="1.27" size="0.6096" layer="37" font="vector" rot="R90">VCC</text>
-<text x="18.077" y="1.27" size="0.6096" layer="37" font="vector" rot="R90">VCC</text>
+<text x="9.652" y="3.175" size="1.016" layer="25" font="vector" rot="R180">LAAS CNRS</text>
+<text x="38.164" y="1.143" size="0.6096" layer="25" font="vector" rot="R90">GND</text>
+<text x="21.164" y="1.143" size="0.6096" layer="25" font="vector" rot="R90">GND</text>
+<text x="35.577" y="1.27" size="0.6096" layer="25" font="vector" rot="R90">VCC</text>
+<text x="18.077" y="1.27" size="0.6096" layer="25" font="vector" rot="R90">VCC</text>
 </plain>
 <libraries>
 <library name="CLM-110-02-XX-D">
@@ -593,16 +593,21 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="J1" library="CLM-110-02-XX-D" package="CLM-110-02-XX-D" value="CLM-110-02-XX-D" x="44.04" y="22.05" locked="yes" rot="MR270"/>
-<element name="SV1" library="con-lsta" package="FE10-2" value="" x="3.81" y="19.05" locked="yes" rot="R270">
+<element name="J1" library="CLM-110-02-XX-D" package="CLM-110-02-XX-D" value="CLM-110-02-XX-D" x="44.04" y="22.05" locked="yes" smashed="yes" rot="MR270">
+<attribute name="NAME" x="40.484" y="24.844" size="1.27" layer="26" rot="MR270"/>
+<attribute name="VALUE" x="32.844" y="28.134" size="1.27" layer="27"/>
+</element>
+<element name="SV1" library="con-lsta" package="FE10-2" value="" x="3.81" y="19.05" locked="yes" smashed="yes" rot="R270">
 <attribute name="MF" value="" x="3.81" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="3.81" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="3.81" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="3.81" y="19.05" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="-0.889" y="31.75" size="1.27" layer="27" ratio="10" rot="R270"/>
 </element>
-<element name="ALIM" library="con-molex" package="6410-02" value="22-27-2021-02" x="43.18" y="5.08">
+<element name="ALIM" library="con-molex" package="6410-02" value="22-27-2021-02" x="43.18" y="5.08" smashed="yes">
 <attribute name="MF" value="" x="43.18" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="43.18" y="5.08" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="45.8551" y="8.8331" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="OC_FARNELL" value="unknown" x="43.18" y="5.08" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="43.18" y="5.08" size="1.778" layer="27" display="off"/>
 </element>
@@ -610,17 +615,19 @@ design rules under a new name.</description>
 <attribute name="SPICEMODEL" value="NONE" x="43.5" y="8.5" size="1.778" layer="27" display="off"/>
 <attribute name="SPICEPREFIX" value="C" x="43.5" y="8.5" size="1.778" layer="27" display="off"/>
 </element>
-<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA06-1" package3d_urn="urn:adsk.eagle:package:8340/1" value="" x="31.5" y="5">
+<element name="SV2" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA06-1" package3d_urn="urn:adsk.eagle:package:8340/1" value="" x="31.5" y="5" smashed="yes">
 <attribute name="MF" value="" x="31.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="31.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="31.5" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="31.5" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="28.96" y="2.079" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="" x="17" y="5">
+<element name="SV3" library="con-lstb" library_urn="urn:adsk.eagle:library:162" package="MA04-1" package3d_urn="urn:adsk.eagle:package:8337/1" value="" x="17" y="5" smashed="yes">
 <attribute name="MF" value="" x="17" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="17" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="17" y="5" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="17" y="5" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.635" y="6.651" size="1.27" layer="27" ratio="10"/>
 </element>
 </elements>
 <signals>
