@@ -114,17 +114,17 @@
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
 <text x="66.04" y="60.96" size="1.778" layer="27" font="vector" rot="R90">Motor_Fuse</text>
 <text x="50.8" y="60.96" size="1.778" layer="27" font="vector" rot="R90">3V_Fuse</text>
-<text x="55.372" y="26.797" size="1.778" layer="27" font="vector">DIR</text>
-<text x="55.372" y="4.064" size="1.778" layer="27" font="vector">DIR</text>
-<text x="53.975" y="29.591" size="1.778" layer="27" font="vector">STEP</text>
-<text x="53.848" y="6.604" size="1.778" layer="27" font="vector">STEP</text>
-<text x="18.796" y="49.657" size="1.778" layer="27" font="vector">3V</text>
-<text x="17.018" y="47.244" size="1.778" layer="27" font="vector">GND</text>
-<text x="10.992" y="72.856" size="1.778" layer="27" font="vector" rot="R180">GND</text>
-<text x="16.129" y="66.929" size="1.778" layer="27" font="vector" rot="R90">GND</text>
-<text x="18.796" y="68.453" size="1.778" layer="27" font="vector" rot="R90">3V</text>
-<text x="30.861" y="66.167" size="1.778" layer="27" font="vector" rot="R270">GND</text>
-<text x="33.909" y="66.167" size="1.778" layer="27" font="vector" rot="R270">3V</text>
+<text x="55.372" y="26.797" size="1.778" layer="25" font="vector">DIR</text>
+<text x="55.372" y="4.064" size="1.778" layer="25" font="vector">DIR</text>
+<text x="53.975" y="29.591" size="1.778" layer="25" font="vector">STEP</text>
+<text x="53.848" y="6.604" size="1.778" layer="25" font="vector">STEP</text>
+<text x="18.796" y="49.657" size="1.778" layer="25" font="vector">3V</text>
+<text x="17.018" y="47.244" size="1.778" layer="25" font="vector">GND</text>
+<text x="10.992" y="72.856" size="1.778" layer="25" font="vector" rot="R180">GND</text>
+<text x="16.129" y="66.929" size="1.778" layer="25" font="vector" rot="R90">GND</text>
+<text x="18.796" y="68.453" size="1.778" layer="25" font="vector" rot="R90">3V</text>
+<text x="30.861" y="66.167" size="1.778" layer="25" font="vector" rot="R270">GND</text>
+<text x="33.909" y="66.167" size="1.778" layer="25" font="vector" rot="R270">3V</text>
 <text x="10.738" y="77.682" size="1.778" layer="25" font="vector" rot="R180">VIN</text>
 <text x="27.686" y="66.167" size="1.778" layer="25" font="vector" rot="R270">VIN</text>
 <text x="81.28" y="40.64" size="1.778" layer="25" font="vector" rot="R270">MOTOR1</text>
