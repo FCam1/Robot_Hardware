@@ -655,17 +655,12 @@ design rules under a new name.</description>
 <contactref element="U$5" pad="P$2"/>
 <contactref element="RPI" pad="1A"/>
 <contactref element="FNU1" pad="P$2"/>
-<wire x1="28.45" y1="55.88" x2="28.45" y2="43.18" width="5" layer="1"/>
-<wire x1="28.45" y1="43.18" x2="28.45" y2="30.48" width="5" layer="1"/>
-<wire x1="28.45" y1="30.48" x2="28.45" y2="25.91" width="5" layer="1"/>
-<wire x1="28.45" y1="25.91" x2="25.4" y2="22.86" width="5" layer="1"/>
-<wire x1="25.4" y1="22.86" x2="25.4" y2="15.494" width="5" layer="1"/>
-<wire x1="25.4" y1="15.494" x2="25.146" y2="15.24" width="5" layer="1"/>
-<wire x1="25.146" y1="15.24" x2="25.146" y2="5.334" width="5" layer="1"/>
-<wire x1="25.146" y1="5.334" x2="25.4" y2="5.08" width="5" layer="1"/>
-<wire x1="28.45" y1="68.58" x2="28.45" y2="55.88" width="5" layer="1"/>
-<wire x1="17.78" y1="74.93" x2="24.13" y2="68.58" width="6" layer="1"/>
-<wire x1="24.13" y1="68.58" x2="28.45" y2="68.58" width="6" layer="1"/>
+<polygon width="0.508" layer="1">
+<vertex x="1.27" y="78.74"/>
+<vertex x="35.56" y="78.74"/>
+<vertex x="35.60955" y="1.2763125"/>
+<vertex x="1.195678125" y="1.20198125"/>
+</polygon>
 </signal>
 <signal name="N$2">
 <contactref element="OD1" pad="P$4"/>
@@ -688,16 +683,21 @@ design rules under a new name.</description>
 <contactref element="R1" pad="1"/>
 <wire x1="65.53" y1="68.58" x2="68.58" y2="65.53" width="1.27" layer="16"/>
 <wire x1="68.58" y1="65.53" x2="68.58" y2="63.5" width="1.27" layer="16"/>
-<wire x1="65.53" y1="68.58" x2="68.58" y2="68.58" width="5" layer="1"/>
-<wire x1="68.58" y1="68.58" x2="73.66" y2="73.66" width="5" layer="1"/>
-<wire x1="73.66" y1="73.66" x2="93.98" y2="73.66" width="5" layer="1"/>
+<polygon width="0.508" layer="1">
+<vertex x="58.42" y="78.74"/>
+<vertex x="99.06" y="78.74"/>
+<vertex x="99.06" y="68.58"/>
+<vertex x="88.9" y="68.58"/>
+<vertex x="88.9" y="64.77"/>
+<vertex x="58.42" y="64.77"/>
+</polygon>
 </signal>
 <signal name="N$7">
 <contactref element="MASTER" pad="P$1"/>
 <contactref element="MAST2" pad="P$4"/>
 <contactref element="R2" pad="1"/>
-<wire x1="65.53" y1="55.88" x2="76.2" y2="55.88" width="2.54" layer="16"/>
-<wire x1="76.2" y1="55.88" x2="95.25" y2="55.88" width="2.54" layer="16"/>
+<wire x1="65.53" y1="55.88" x2="76.2" y2="55.88" width="3" layer="16"/>
+<wire x1="76.2" y1="55.88" x2="95.25" y2="55.88" width="3" layer="16"/>
 </signal>
 <signal name="GND">
 <contactref element="OD" pad="P$2"/>
@@ -716,31 +716,29 @@ design rules under a new name.</description>
 <contactref element="LED5" pad="K"/>
 <contactref element="LED6" pad="K"/>
 <contactref element="IC2" pad="2"/>
-<polygon width="0.508" layer="1">
-<vertex x="1.27" y="78.74"/>
-<vertex x="99.06" y="78.74"/>
-<vertex x="99.06" y="1.27"/>
-<vertex x="1.27" y="1.27"/>
-</polygon>
-<polygon width="0.508" layer="1">
-<vertex x="1.27" y="78.74"/>
-<vertex x="99.06" y="78.74"/>
-<vertex x="99.06" y="1.27"/>
-<vertex x="1.27" y="1.27"/>
-</polygon>
 <polygon width="0.508" layer="16">
 <vertex x="1.27" y="78.74"/>
 <vertex x="99.06" y="78.74"/>
 <vertex x="99.06" y="1.27"/>
 <vertex x="1.27" y="1.27"/>
 </polygon>
+<polygon width="0.508" layer="1">
+<vertex x="36.83" y="78.74"/>
+<vertex x="57.15" y="78.74"/>
+<vertex x="57.15" y="63.5"/>
+<vertex x="90.17" y="63.5"/>
+<vertex x="90.17" y="67.31"/>
+<vertex x="99.06" y="67.31"/>
+<vertex x="99.06" y="1.27"/>
+<vertex x="36.83" y="1.27"/>
+</polygon>
 </signal>
 <signal name="N$1">
 <contactref element="PAP2" pad="P$4"/>
 <contactref element="PAP" pad="P$1"/>
 <contactref element="R3" pad="1"/>
-<wire x1="65.53" y1="43.18" x2="73.66" y2="43.18" width="2.54" layer="16"/>
-<wire x1="73.66" y1="43.18" x2="95.25" y2="43.18" width="2.54" layer="16"/>
+<wire x1="65.53" y1="43.18" x2="73.66" y2="43.18" width="3" layer="16"/>
+<wire x1="73.66" y1="43.18" x2="95.25" y2="43.18" width="3" layer="16"/>
 </signal>
 <signal name="N$8">
 <contactref element="RPI1" pad="1"/>
