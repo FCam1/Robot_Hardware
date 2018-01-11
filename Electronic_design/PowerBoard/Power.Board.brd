@@ -64,7 +64,7 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0.381" y2="0" width="0" layer="20"/>
-<text x="5.08" y="2.54" size="1.778" layer="25" font="vector" rot="R90">LAAS_CNRS</text>
+<text x="5.08" y="10.16" size="1.778" layer="25" font="vector" rot="R90">LAAS_CNRS</text>
 <text x="7.62" y="71.12" size="1.778" layer="25" font="vector" rot="R270">GND</text>
 <text x="88.9" y="66.04" size="1.778" layer="25" font="vector" rot="R270">GND</text>
 <text x="88.9" y="50.8" size="1.778" layer="25" font="vector">GND</text>
