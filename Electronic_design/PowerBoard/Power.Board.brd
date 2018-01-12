@@ -65,14 +65,14 @@
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0.381" y2="0" width="0" layer="20"/>
 <text x="20.32" y="6.35" size="1.778" layer="25" font="vector" rot="R180">LAAS_CNRS</text>
-<text x="7.62" y="71.12" size="1.778" layer="25" font="vector" rot="R270">GND</text>
+<text x="16.51" y="71.12" size="1.778" layer="25" font="vector" rot="R270">GND</text>
 <text x="88.9" y="66.04" size="1.778" layer="25" font="vector" rot="R270">GND</text>
 <text x="88.9" y="50.8" size="1.778" layer="25" font="vector">GND</text>
 <text x="88.9" y="38.1" size="1.778" layer="25" font="vector">GND</text>
 <text x="88.9" y="25.4" size="1.778" layer="25" font="vector">GND</text>
 <text x="93.98" y="2.54" size="1.778" layer="25" font="vector" rot="R180">GND</text>
 <text x="92.837" y="12.319" size="1.778" layer="25" font="vector" rot="R180">GND</text>
-<text x="16.51" y="71.12" size="1.778" layer="25" font="vector" rot="R270">12V</text>
+<text x="7.62" y="71.12" size="1.778" layer="25" font="vector" rot="R270">12V</text>
 <text x="88.9" y="76.2" size="1.778" layer="25" font="vector" rot="R270">12V</text>
 <text x="88.9" y="55.88" size="1.778" layer="25" font="vector">12V</text>
 <text x="88.9" y="43.18" size="1.778" layer="25" font="vector">12V</text>
@@ -1670,7 +1670,7 @@ design rules under a new name.</description>
 <element name="OD1" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="35.56" y="68.58"/>
 <element name="MAST1" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="35.56" y="55.88"/>
 <element name="PAP1" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="35.56" y="43.18"/>
-<element name="U$5" library="PowerHeaders" package="3MM_HEADER_2" value="3MM_HEADER_2" x="7.62" y="74.93"/>
+<element name="U$5" library="PowerHeaders" package="3MM_HEADER_2" value="3MM_HEADER_2" x="17.78" y="74.93" smashed="yes" rot="R180"/>
 <element name="0D2" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="58.42" y="68.58"/>
 <element name="MAST2" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="58.42" y="55.88"/>
 <element name="PAP2" library="AUTO_FUSE" package="AUTO_FUSE" value="AUTO_FUSE" x="58.42" y="43.18"/>
