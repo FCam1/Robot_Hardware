@@ -1,4 +1,5 @@
 # Robot_Hardware
+## Descriptif fichiers :
 
 STM32PAP board : blue pill + 2x drivers PAP  
 
@@ -15,3 +16,14 @@ STM32F103ZET6 (.lib): librairie EAGLE. Informations [ICI](http://wiki.stm32duino
 auto fuse (.lib): porte fusible (ref: [PC AUTO FUSE SOCKET](https://www.mouser.fr/ProductDetail/Keystone-Electronics/3522-2/?qs=%2fha2pyFadujcR%252bwSIP7oJU1VF30m3fPHKLRW1u8sLVY%3d))
 
 stm32duino boards (.lib): librairie EAGLE contenant  Black Pill - Blue Pill - Maple Mini from Baite - LeafLab . Source et auteur [ICI](http://www.stm32duino.com/viewtopic.php?f=9&t=782&start=10)
+
+
+
+## Instructions chargement bootloader :
+
+Bluepill et stm32f103ZE: Procédure [ici](http://wiki.stm32duino.com/index.php?title=Burning_the_bootloader). Alternative pour Windows [Ici](https://github.com/rogerclarkmelbourne/Arduino_STM32/wiki/Flashing-Bootloader-for-BluePill-Boards)  
+
+[Driver](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-utilities/stsw-link009.html) pour ST-LINK/V2 sous Windows. 
+
+Binaries : [generic_boot20_pc13.bin](https://github.com/rogerclarkmelbourne/STM32duino-bootloader/tree/master/binaries)  nécessaire pour les Bluepill et stm32f103ZE
+ 
