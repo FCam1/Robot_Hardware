@@ -26,4 +26,16 @@ Bluepill et stm32f103ZE: Procédure [ici](http://wiki.stm32duino.com/index.php?t
 [Driver](http://www.st.com/content/st_com/en/products/development-tools/software-development-tools/stm32-software-development-tools/stm32-utilities/stsw-link009.html) pour ST-LINK/V2 sous Windows. 
 
 Binaries : [generic_boot20_pc13.bin](https://github.com/rogerclarkmelbourne/STM32duino-bootloader/tree/master/binaries)  nécessaire pour les Bluepill et stm32f103ZE
+
+## STM32F103ZET6 :
+
+ST Datasheet : http://www.st.com/content/ccc/resource/technical/document/datasheet/59/f6/fa/84/20/4e/4c/59/CD00191185.pdf/files/CD00191185.pdf/jcr:content/translations/en.CD00191185.pdf
+
+
+### Pinouts and pin descriptions (not exhaustive):
+
+5V tolerant : UART1, UART3, UART4, UART5, SPI2, PD8, PD9, PD10, PD11  
+Not 5V tolerant : UART2, SPI3, SPI1
+
+
  
