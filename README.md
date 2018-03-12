@@ -29,7 +29,7 @@ Binaries : [generic_boot20_pc13.bin](https://github.com/rogerclarkmelbourne/STM3
 
 ## STM32F103ZET6 :
 
-ST Datasheet : http://www.st.com/content/ccc/resource/technical/document/datasheet/59/f6/fa/84/20/4e/4c/59/CD00191185.pdf/files/CD00191185.pdf/jcr:content/translations/en.CD00191185.pdf
+ST Datasheet : http://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf
 
 
 ### Pinouts and pin descriptions (not exhaustive):
