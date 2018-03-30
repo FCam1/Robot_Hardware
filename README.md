@@ -11,7 +11,7 @@ CLM-110-02 (.lib): connecteur IMU
 
 [POLOLU 4988](https://www.pololu.com/product/1182) (.lib): driver moteur PAP  
 
-STM32F103ZET6 (.lib): librairie EAGLE. Informations [ICI](http://wiki.stm32duino.com/index.php?title=Vcc-gnd.com_STM32F103ZET6). Datasheet [ICI](http://www.st.com/content/ccc/resource/technical/document/datasheet/59/f6/fa/84/20/4e/4c/59/CD00191185.pdf/files/CD00191185.pdf/jcr:content/translations/en.CD00191185.pdf)  
+STM32F103ZET6 (.lib): librairie EAGLE. Informations [ICI](http://wiki.stm32duino.com/index.php?title=Vcc-gnd.com_STM32F103ZET6). 
 
 auto fuse (.lib): porte fusible (ref: [PC AUTO FUSE SOCKET](https://www.mouser.fr/ProductDetail/Keystone-Electronics/3522-2/?qs=%2fha2pyFadujcR%252bwSIP7oJU1VF30m3fPHKLRW1u8sLVY%3d))
 
@@ -29,13 +29,11 @@ Binaries : [generic_boot20_pc13.bin](https://github.com/rogerclarkmelbourne/STM3
 
 ## STM32F103ZET6 :
 
-ST Datasheet : http://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf
+ST Datasheet famille STM32F1 : http://www.st.com/content/ccc/resource/technical/document/reference_manual/59/b9/ba/7f/11/af/43/d5/CD00171190.pdf/files/CD00171190.pdf/jcr:content/translations/en.CD00171190.pdf
 
+ST Datasheet spécifique STM32F103xE : http://www.st.com/resource/en/datasheet/stm32f103ze.pdf  
 
 ### Pinouts and pin descriptions (not exhaustive):
 
 5V tolerant : UART1, UART3, UART4, UART5, SPI2, PD8, PD9, PD10, PD11  
 Not 5V tolerant : UART2, SPI3, SPI1
-
-
- 
